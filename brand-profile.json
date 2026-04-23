@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "brand_name": "Buffalo House Liquor & Wines",
+  "website_url": "https://buffalohouseliquorandwines.com",
+  "extracted_at": "2026-04-23T00:00:00Z",
+  "extraction_notes": "Visual CSS/color extraction unavailable (site returned 403 during crawl). Voice and positioning extracted from search-indexed copy, Instagram bio, and product descriptions. Confidence: HIGH for voice/positioning, LOW for colors/typography.",
+
+  "voice": {
+    "formal_casual": 7,
+    "rational_emotional": 7,
+    "playful_serious": 4,
+    "bold_subtle": 7,
+    "traditional_innovative": 4,
+    "expert_accessible": 6,
+    "descriptors": ["neighborhood-warmth", "aspirational", "curated", "bold", "approachable"]
+  },
+
+  "colors": {
+    "primary": null,
+    "secondary": [null],
+    "forbidden": ["neon", "overly bright primary colors"],
+    "background": null,
+    "text": null
+  },
+
+  "typography": {
+    "heading_font": null,
+    "body_font": null,
+    "pairing_descriptor": "Google Fonts not detected (site blocked during crawl); typography unknown"
+  },
+
+  "imagery": {
+    "style": "professional product photography",
+    "subjects": ["premium spirit bottles", "wine glasses", "moody bottle arrangements", "lifestyle moments", "local Buffalo community"],
+    "composition": "rich, dark backgrounds with focused lighting on product; occasional warm lifestyle scenes",
+    "forbidden": ["minors near alcohol", "irresponsible consumption", "cheap clip art", "generic stock smiles", "overly corporate imagery"]
+  },
+
+  "aesthetic": {
+    "mood_keywords": ["elevated", "neighborhood", "curated", "warm", "premium-accessible"],
+    "texture": "textured",
+    "negative_space": "moderate"
+  },
+
+  "brand_values": ["community", "quality curation", "accessibility", "aspiration", "local pride"],
+
+  "target_audience": {
+    "age_range": "25-55",
+    "profession": "Buffalo-area residents — working professionals, enthusiasts, and everyday shoppers",
+    "pain_points": ["hard to find quality spirits locally", "impersonal big-box liquor stores", "limited delivery options"],
+    "aspirations": ["elevate everyday moments", "discover rare and curated finds", "support a local neighborhood store"]
+  }
+}
